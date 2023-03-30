@@ -1,0 +1,102 @@
+.container{
+	width: 22em;
+	overflow: hidden;
+    text-shadow: 3px 3px 3px #000;
+    position: absolute;
+    top: 50%;
+    left: 2%;
+}
+.container .text{
+	position: relative;
+	color: #d6378f;
+	font-size: 30px;
+	font-weight: 600;
+    
+	
+}
+.container .text.first-text{
+	color: #fff;
+}
+.text.sec-text:before{
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	height:100% ;
+	width: 100%;
+	background: linear-gradient(to bottom, #0b1446, #0b1446);
+	border-left: 2px solid #3f0888;
+	animation: animate 4s steps(15) infinite;
+}
+@keyframes animate{
+	40%, 60%{
+		left: calc(100% + 4px);
+	}
+	100%{
+		left: 0%;
+	}
+}
+@media screen and (max-width: 600px) {
+	.container .text{
+		font-size: 23px;
+		right: 9%;
+	}
+}
+/* TESTE FLOAT 18/03 */
+
+/* @-webkit-keyframes perfil {
+	0% {
+	  -webkit-transform: translateY(-8px);
+	  transform: translateY(-8px);
+	}
+	50% {
+	  -webkit-transform: translateY(-4px);
+	  transform: translateY(-4px);
+	}
+	100% {
+	  -webkit-transform: translateY(-8px);
+	  transform: translateY(-8px);
+	}
+  }
+  @keyframes perfil {
+	0% {
+	  -webkit-transform: translateY(-8px);
+	  transform: translateY(-8px);
+	}
+	50% {
+	  -webkit-transform: translateY(-4px);
+	  transform: translateY(-4px);
+	}
+	100% {
+	  -webkit-transform: translateY(-8px);
+	  transform: translateY(-8px);
+	}
+  }
+  @-webkit-keyframes perfil-float {
+	100% {
+	  -webkit-transform: translateY(-8px);
+	  transform: translateY(-8px);
+	}
+  }
+  @keyframes perfil-float {
+	100% {
+	  -webkit-transform: translateY(-8px);
+	  transform: translateY(-8px);
+	}
+  }
+  .perfil:hover, .perfil:focus, .perfil:active {
+	-webkit-animation-name: perfil-float, perfil;
+	animation-name: perfil-float, perfil;
+	-webkit-animation-duration: .3s, 1.5s;
+	animation-duration: .3s, 1.5s;
+	-webkit-animation-delay: 0s, .3s;
+	animation-delay: 0s, .3s;
+	-webkit-animation-timing-function: ease-out, ease-in-out;
+	animation-timing-function: ease-out, ease-in-out;
+	-webkit-animation-iteration-count: 1, infinite;
+	animation-iteration-count: 1, infinite;
+	-webkit-animation-fill-mode: forwards;
+	animation-fill-mode: forwards;
+	-webkit-animation-direction: normal, alternate;
+	animation-direction: normal, alternate;
+  } */
