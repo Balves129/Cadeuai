@@ -24,7 +24,7 @@
 	left: 0;
 	height:100% ;
 	width: 100%;
-	background: linear-gradient(to bottom, #0b1446, #0b1446);
+	background: linear-gradient(to bottom, #01123D 50%, #01123D);
 	border-left: 2px solid #3f0888;
 	animation: animate 4s steps(15) infinite;
 }
