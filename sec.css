@@ -1,0 +1,153 @@
+.Inov{
+    height: 100vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+    padding: 1rem 4rem;
+    background: transparent;
+    box-shadow: none;
+}
+#span{
+    color: #000000;
+    opacity: .4;
+}
+.Inov h1{
+    font-size: 20px;
+    transform: scale(2.1);
+    font-weight:400;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    color: #e64e33;
+    margin: 4rem 14rem;
+    width: 220px;
+    position: relative;
+    
+}
+.Inov h5{
+    font-size: 23px;
+    font-weight: lighter;
+    font-family:Arial, Helvetica, sans-serif;
+    opacity: .6;
+    padding: 3rem;
+    position: relative;
+    left: 3rem;
+}
+.card-1{
+    padding: 20rem 1rem;
+    background-image: url(/serraSul.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 6px;
+    box-shadow: 4px 4px 4px #858585, 4px 4px 4px #858585;
+}
+.card-1 h2{
+    margin-left: 14rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 34px;
+    font-variant: small-caps;
+    opacity: .5;
+}
+.card-1 h2:hover{
+    transform: scale(1.1);
+    transition: .3s ease-in-out;
+    opacity: 1;
+}
+.card-1:hover{
+    filter: drop-shadow(0 0 0.75rem crimson);
+    transition: .5s ease;
+    
+}
+
+.Project{
+
+    width: 100%;
+      padding: 55px;
+      
+    }
+    
+    .Project h1{
+      font-size: 20px;
+      position: relative;
+      bottom: 0.84rem;
+    
+      
+      font-family:Arial, Helvetica, sans-serif;
+      font-weight: bold;
+      margin-left: 9%;
+      color: #e64e33;
+      width: 25vw;
+    }
+    .texth5{
+    font-size: 17px;
+    width: 50vw;
+    position: relative;
+    bottom: 3rem;
+    }
+    
+    .img-Project{
+     display: flex;
+     justify-content: center;
+     gap: 70px;
+     margin-top: 1.6rem;
+     margin-right: 12%;
+     flex-wrap: wrap;
+    }
+    
+    .img-Project img{
+      max-width: 450px;
+      height: auto;
+      box-shadow: 4px 4px 4px #858585, 4px 4px 4px #858585;
+      border-radius: 10px;
+      left: 3em;
+    }
+    
+
+    .Project img:hover{
+      transform: scale(1.1);
+      transition: 0.5s;
+      transition-duration: 0.9s;
+      border: solid 2px #180127;
+      border-radius: 10px;
+    }
+
+    /* C U R I O S I D A D E */
+    
+    /* ============================ */
+
+
+    .Faq {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+      }
+      
+      h1 {
+        text-align: center;
+        margin-bottom: 20px;
+      }
+      
+      .accordion-item {
+        border: 3px solid #4f9ac5;
+        border-radius: 40px;
+        margin-bottom: 10px;
+      }
+      
+      .accordion-header {
+        border-radius: 40px;
+        padding: 10px;
+        cursor: pointer;
+      }
+      
+      .accordion-content {
+        padding: 10px;
+        display: none;
+      }
+      
+      .accordion-content.active {
+        display: block;
+      }
+
+      /* F O O T E R */
+      
+    @media (max-width: 767px){
+
+    }

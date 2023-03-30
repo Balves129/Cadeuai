@@ -1,5 +1,5 @@
 body {
-	background: linear-gradient(to bottom, #f9f6ec, #49a5be, #9916aa, #790614);
+	background: linear-gradient(to bottom, #f9f6ec, #ebf5f8, #9916aa, #790614);
 	background-size: 400% 400%;
 	animation: gradient 15s ease infinite;
 	overflow-x: hidden;
@@ -30,14 +30,17 @@ section p{
 
 }
 .img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 100%;
   height: auto;
-  position: absolute;
-  bottom: 19em;
+  margin-top: 30%;
 }
 .img img{
-  width: 17em;
+  width: 60%;
 }
+
 /* ---------------C A R R O S S E L----------------- */
 /* .Carousel{
   
@@ -357,11 +360,29 @@ img{
       padding: 7em ;
       left: 0.1em;
     }
+    .container{
+      margin-top: 3em;
+      
+    }
     
   }
 /*  */
 /* Para telas menores que 768px */
 @media (max-width: 767px) {
+  section{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 16px;
+  }
+  section h2{
+    top: 5em;
+    left: 0.7em;
+    font-size: 36px;
+  }
+  .container{
+    top:16.7em;
+   }  
   .inicio {
     margin: 0.6em;
     display: flex;
@@ -388,17 +409,13 @@ img{
     font-size: 22px;
     margin-bottom: 0.74em;
   }
-  section h2{
-    top: 5em;
-    left: 0.4em;
-    font-size: 36px;
-  }
-  .container{
-   top: 13em;
-  }
+ 
+  
   .img{
+    position: absolute;
+    right: 3em;
     top: 16em;
-    width: 7em;
+    width: 87%;
   }
   .card{
     position: relative;
@@ -420,15 +437,18 @@ img{
     font-family: sans-serif;
   }
   .img{
-    
-    left: 37em;
     width: max-content;
+    position: absolute;
+    left: 2%;
+    margin-bottom: 60%;
   }
+  
   .sobre-texto {
     margin-top: 1em;
     text-align: center;
     text-align:start;
     height: min-content;
+    font-family: sans-serif;
   }
   
   
@@ -442,11 +462,11 @@ img{
     margin-bottom: 1em;
   }
   section h2{
-    font-size: 2em;
-    top: 4em;
+    font-size: 4em;
+    top: 2em;
   }
   .container{
-   top: 13em;
+   top: 15.7em;
    left: 2.8em;
   }
   .Carousel{
