@@ -15,7 +15,7 @@ const text = document.querySelector(".sec-text");
       }, 0);
       setTimeout(() => { //setTimeout controla o tempo da animação em milissegundos
           text.textContent = "Conforto";
-      }, 4500);
+      }, 4000);
       setTimeout(() => {
           text.textContent = "Precisão";
       }, 8650);
